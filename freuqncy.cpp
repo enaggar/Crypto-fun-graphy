@@ -83,8 +83,8 @@ int main (int argc, char* argv[]) {
 	for (it = freq_set.begin(); it != freq_set.end(); it++) {
 		printf ("(%d, %c)\n", it->first, it->second);
 	}
-
-	char sub_map[] = "XTWDVQZLSONBAUGHKEPYRCIFMJ";
+//char sub_map[] = "XTWDVQZLSONBAUGHKEPYRCIFMJ";
+	char sub_map[] = "LMNOPQRSTUVWXYZABCDEFGHIJK";
 	substitute (text, s_len, sub_map);
 
 	return 0;
